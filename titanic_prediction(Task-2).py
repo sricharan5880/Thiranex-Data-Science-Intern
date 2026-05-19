@@ -59,5 +59,6 @@ sns.heatmap(
 plt.title("Confusion Matrix")
 plt.xlabel("Predicted")
 plt.ylabel("Actual")
+plt.show(block=True)
 
 plt.show()
